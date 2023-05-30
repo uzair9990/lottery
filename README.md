@@ -24,6 +24,7 @@ Please navigate to the `contracts/Lottery.sol` file. That is our smart contract 
 Go ahead and install the complete setup for Hardhat in your computer. Once done, give the following command: `npx hardhat test/Lottery.js` which will run your unit tests using `Chai.js` library for asserting positive test cases as well as the negative test cases. These are the following tests which I wrote and they are passing (copy-pasted from the terminal window afer successful execution of the tests):
 
 1. buyTicket( ... )
+   
    ✔ successfully allows for ticket purchase if everything goes right (112ms)
    
    ✔ successfully emits an event when you buy a lottery ticket (79ms)
